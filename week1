@@ -1,2 +1,22 @@
 master branch를 main branch
 원격 리포지토리(깃허브 계정 생성)
+
+실습실 컴퓨토 사용 시 매주 해야할 일
+
+깃 다운받기
+git-scm.com
+(am버전 다운받지말것)
+관리자권한으로 설치. 기본 설정으로 계속 next
+새폴더 만들고 파일명 설정
+해당 폴더에서 우클 추가옵션표시 bash로 켤것
+git init 
+임의 파일 생성
+git add 파일명
+git commit -m "쓰고싶은메시지"
+초기화 됐기 때문에 이메일 사용자필명 다시 등록
+그리고 다시 커밋(방향키)
+git remote add origin 본인원격리포지토리주소
+git remote -v 등록 확인
+git push -u origin main (원격 리포지토리에 업로드 및 동기화)
+엣지 브라우저에 뜬 주소 잘라서 크롬 새탭에 붙여넣기 > 인증
+git push (-u 옵션 때문에 한번만 git push 해주면 다음부턴 생략 가능pit push만)
